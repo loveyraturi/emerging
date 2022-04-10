@@ -1,0 +1,626 @@
+/* Home section */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/about-usBG.jpg);
+    background-size: cover;
+    z-index: 10;
+}
+
+
+/* Touchups */
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.about-usTop{
+    font-family: 'heading'!important;
+}
+
+button {
+    background: #0078D4;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+}
+
+button:hover {
+    color: #fff;
+}
+
+#mLap{
+    padding-bottom: 30px;
+}
+
+.client-part2{
+	background:url(../img/aboutBG.jpg) center center no-repeat;
+	background-size:cover;
+	padding:55px 0;
+	text-align:center;
+}
+
+#cards{
+    height: auto;
+    margin-top: 10%;
+    /* margin-bottom: 600px; */
+    min-width: 0;
+    width: auto;
+}
+
+#hCards{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    height: auto;
+    width: auto;
+}
+
+.dCards{
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactpageBTN{
+    color: #FFFFFF;
+}
+
+.pCards{
+    font-size: 12px;
+}
+
+.increase-height{
+    height: 400px;
+}
+
+/* Contact Us CSS*/
+
+
+input:active, input:focus {
+  outline: none;
+}
+input{
+    border: 1px solid #5EB4CB;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #9C9C9C;
+    font-family: inherit;
+    padding:13px 25px;
+    background: transparent;
+    margin-bottom: 20px;  
+    width:545px;
+    max-width: 100%;    
+}
+
+ul{
+    list-style: none;
+    padding: 0
+}
+
+ul li{
+    display: inline-block;
+    padding-right: 10px;     
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.wrapper{
+    margin: 125px 0;
+
+}
+
+.form{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+}
+
+.left-col{
+    width: 40%;
+    padding: 135px 30px 0 30px;
+    background: linear-gradient(to bottom, #69B9C4, #91C8EB);
+}
+
+
+.left-col h2{
+    color:#fff;
+    font-size:32px;
+    line-height: 37px;
+}
+
+.left-col img.img1{
+    margin-bottom: 10px;
+}
+
+.left-col .bull{
+    margin: 100px 0 0;
+}
+.left-col .bull p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.left-col .bull img.img2{
+    margin:25px 0;
+}
+
+.left-col .soc{
+    margin: 100px 0 0;
+}
+.left-col .soc a img{
+    transition: 0.5s;   
+}
+.left-col .soc a img:hover{
+    transition: 0.5s;
+    transform: scale(1.3)
+}
+
+.left-col .soc p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.left-col .soc ul{
+    padding:20px 0 50px;
+}
+
+
+.right-col{
+    width: 60%;
+    padding: 135px 30px 0 30px;    
+    background: rgba(255, 255, 255, 0.7);
+  
+}
+
+.right-col h2{
+    margin-bottom: 70px;
+    font-size: 30px;
+    color: #585858;
+    font-weight: 600;    
+}
+
+.right-col button{
+    background: linear-gradient(299.5deg, #69B9C4 35.53%, #91C8EB 109.8%);
+    border-radius: 18px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    width: 545px;
+  }
+
+.right-col button:hover{
+    background: linear-gradient(299.5deg, #91C8EB 35.53%, #69B9C4 109.8%);
+}
+@media screen and (max-width: 992px) {
+    .form{
+        display: block;
+    }
+    .left-col img.img1{
+        display: none
+    }
+
+    .right-col, .left-col{
+        width:100%;
+        padding: 40px 0;
+    }
+
+}
+
+#map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-image: url(/img/bg-map.png);
+}
+
+
+.headingTOP{
+	font-size:34px;
+	color:#222222;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:500;
+	letter-spacing: -1px;
+	margin: 125px 0 15px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.home2{
+    width: 100%;
+    height: 140vh;
+    background-image: url(/img/contact-usBG.jpg);
+    background-size: cover;
+    z-index: 10;
+    background-repeat: no-repeat;
+}
+
+
+/* SERVICES PAGE CSS */
+
+#servicesID{
+    font-weight: 500 !important;
+    word-spacing: 0px !important;
+}
+
+.tdServices{
+    padding: 60px;
+    padding-top: 10px;
+}
+
+.btnServices{
+    height: 30px;
+    padding-top: 0px;
+    color: white;
+    margin-left: 125px !important;
+    margin-top: 10px;
+}
+
+.h2Services{
+    font-size: 22px;
+    margin-top: 23px;
+    letter-spacing: 1px;
+}
+
+.pServices{
+    font-size: 12px;
+}
+
+.aServices{
+    color: white;
+}
+
+a{
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+a:hover{
+    color: #7cc576 !important;
+    text-decoration: none !important;
+}
+
+#services-Table{
+    table-layout: fixed;
+}
+
+#servicesH{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+#pForm{
+    margin: 60px 0px !important;
+}
+
+.imgServices{
+    width: 350px;
+    height: 190px;
+}
+
+/*SUB SERVICES CSS */
+/* heading img */
+
+.homeCloud{
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/cloudBGG.jpeg);
+    background-size: 100% 130%;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.homeAIML{
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/aimlBG.jpeg);
+    background-size: 100% 130%;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.homeBSFI{
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/BSFI\ NEW.jpeg);
+    background-size: 100% 100%;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.homeITS{
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/IT-SERVICES.jpeg);
+    background-size: 100% 100%;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.homeMOB{
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/mob-apps-new.jpg);
+    background-size: 100% 100%;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bcAIML{
+    padding-top: 185px !important;
+    position: absolute !important;
+}
+
+.home3{
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/about-usBG.jpg);
+    background-size: cover;
+    z-index: 10;
+}
+
+#homeHeading{
+    float: left;
+    margin-left: 80px !important;
+    margin-top: 130px;
+    font-size: 5rem;
+    font-weight: 510;
+    /* color: white; */
+}
+
+
+.imgTop{
+    margin-left: 22%;
+    margin-top: 120px;
+}
+
+.cloudImg1{
+    height: 270px;
+    border-radius: 12px;
+    padding-left: 160px;
+}
+
+.s-Heading{
+    font-weight: 510;
+    letter-spacing: 0px;
+    margin-top: 30px;
+    font-size: 3rem;
+}
+
+.s-Heading2{
+    letter-spacing: 0px;
+    font-size: 2rem;
+    font-weight: 410;
+    padding-right: 550px;
+    padding-bottom: 25px;
+}
+
+.p1BSFI{
+    font-size: 1.3rem;
+    padding: 20px 215px 20px;
+    font-weight: 300;
+}
+
+.p2BSFI{
+    font-size: 1.3rem;
+    padding: 0px 215px;
+    font-weight: 300;
+}
+
+.ctClass{
+    font-size: 1.3rem;
+    padding: 20px 215px 20px;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+.padRight{
+    padding-right: 10px;
+}
+
+.tdS-Bottom{
+    padding: 50px 75px;
+    width: 50%;
+}
+
+.tdS-RImg{
+    height: 315px;
+}
+
+.bothImgS{
+    border-radius: 12px;
+}
+
+.bcHeadfont{
+    color: #fff !important;
+}
+
+.breadcrumb-Services{
+    background: transparent !important;
+    font-size: 2rem;
+    display: list-item !important;
+    padding-left: 50px !important;
+    margin-left: 12px !important;
+    width: 330px;
+    height: 100px;
+    color: #fff !important;
+}
+
+.breadcrumbDIV{
+    /* padding-top: 185px; */
+    padding-left: 20px;
+    height: 100%;
+}
+
+/* PORTFOLIO CSS */
+
+/* Card Flip */
+
+.cardHeading{
+    color: white;
+}
+
+#fcTable{
+    margin: 30px 0px;
+}
+.fc-left{
+    padding-left:40px;
+    margin-left: 40px;
+}
+
+.fc-right{
+    padding-right:40px;
+    margin-right: 40px;
+}
+
+#flip-mid{
+    height: 500px;
+}
+
+#flipA1{
+    height: 300px;
+    /* margin-top: 55px; */
+}
+
+#flipA2{
+    height: 200px;
+    /* padding-bottom: 30px; */
+    padding-top: 30px;
+}
+
+/* #flip-mid{
+    margin-left: 15px;
+} */
+
+#flipC1{
+    height: 200px;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+}
+
+#flipC2{
+    top: 318px;
+    right: 23px;
+    position: absolute;
+    height: 300px;
+}
+
+/* #tdC1{
+    display: block;
+    margin-top: 54px;
+} */
+
+
+.flip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 250px;
+    perspective: 1000px;
+    border-radius: 17px !important;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 17px !important;
+  }
+
+  .flip-card-back p{
+      font-size: 1.2rem;
+      font-weight: 100;
+      letter-spacing: 0px;
+      padding-top: 5px;
+  }
+  
+  /* .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  } */
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    border-radius: 17px !important;
+  }
+
+  .flip-card-front img{
+      width: 100% !important;
+      border-radius: 17px !important;
+  }
+  
+  /* .flip-card-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 17px !important;
+} */
+
+/* .flip-card-back{
+    margin-top: 100px;
+} */
+
+.fcbMid{
+    padding-top: 210px;
+    padding-right: 100px;
+}
+
+.fcbShort{
+    padding-top: 80px;
+    padding-right: 100px;
+
+}
+
+.fcbLarge{
+    padding-top: 410px;
+    padding-right: 120px;
+}
+
+.fcbMidBTN{
+    margin-right: 100px !important;
+}
+
+.fcbShortBTN{
+    margin-right: 100px !important;
+}
+
+.fcbLargeBTN{
+    margin-right: 100px !important;
+}
+  /* Card Flip End */
+
+  #ctaMargin{
+      margin: 80px 0px;
+  }
